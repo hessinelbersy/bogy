@@ -97,6 +97,7 @@ footer .copyright .line{height: 1px; background: #6596c7;width: 100%;margin-bott
     header .navbar .logo{float: none;margin-left: 0;width: 350px;}
     header .navbar .logo p {font-size: 16px;}
     header .navbar nav ul li {width: 50%;}
+    header .navbar nav ul li:last-of-type{margin-left: 8px;}
     header .info{text-align: center;padding-top: 30px;}
     header .info img{max-width: 150px;height: 150px;}
     header .info h1{font-size: 30px;line-height: 1.5;padding: 15px 0;}
