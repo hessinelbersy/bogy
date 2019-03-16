@@ -91,10 +91,12 @@ footer .copyright {color: #757575;text-align: center;margin-top: 50px;font-size:
 footer .copyright .line{height: 1px; background: #6596c7;width: 100%;margin-bottom: 30px;}
 /* End Footer */
 /* Start Media Queries */
-@media  (min-width:280px) and (max-width:980px){
+@media  (min-width:280px) and (max-width:680px){
     header{height: 700px;}
     .container{margin:0px 30px;}
     header .navbar .logo{float: none;margin-left: 0;width: 350px;}
+    header .navbar .logo p {font-size: 16px;}
+    header .navbar nav ul li {width: 50%;}
     header .info{text-align: center;padding-top: 30px;}
     header .info img{max-width: 150px;height: 150px;}
     header .info h1{font-size: 30px;line-height: 1.5;padding: 15px 0;}
@@ -108,6 +110,7 @@ footer .copyright .line{height: 1px; background: #6596c7;width: 100%;margin-bott
     .our-total .my-total span{font-size: 30px;}
     .our-total .my-total p{letter-spacing: 1px;line-height: 1.5;font-size: 16.5px;}
     .portfolio .image > div {width: 50%;float: left;padding: 10px;}
+    .portfolio .info button {width:60px;margin-right: 0px;}
     .contact .form input {width: 95%;}
     .contact .black {width: 100%}
     footer .icon{width: 100%;height: 100%;    margin-left: 50px;}
