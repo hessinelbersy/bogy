@@ -1,0 +1,93 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.container{margin:0 160px;}
+.clearfix{clear: both;}
+/* Start Header */
+header{overflow: hidden;background-image: linear-gradient(rgba(30,30,30,.8),rgba(30,30,30,.8)),url('../images/bg3.jpg');background-attachment: fixed;background-size: cover;height: 600px;width: auto;}
+header .navbar .logo{float: left;color:#eee;padding-top:10px}
+header .navbar .logo h2{font-family: 'Lobster', cursive;font-size: 38px;}
+header .navbar .logo h2 span{color:#6596c7;font-size:42px;}
+header .navbar .logo p{font-family: 'Righteous', cursive;font-size: 20px;}
+header .navbar nav{float:right;padding-top:15px;}
+header .navbar nav ul{list-style: none;}
+header .navbar nav ul li{float: left;}
+header .navbar nav ul li a{text-decoration: none;color:#FFF;padding:15px;display: inline-block;font-size: 18px;}
+header .navbar nav ul li .first-a{color: #6596c7;}
+header .navbar nav ul li a:hover{color: #2591FF;}
+header .info{text-align: center;padding-top: 90px;}
+header .info img
+{border-radius: 50%;
+max-width: 200px;height: 200px;border:1px solid #DDD;padding:8px;transform: rotate(404deg);transition:all 3s ease-in-out;}
+header .info img:hover{transform:scale(1.1,1.2);transition:all 2s ease-in-out;box-shadow: 2px 2px 20px #2591FF,-3px -3px 10px #2591FF;transform: rotate(40deg);}
+header .info h1{font-size: 40px;color:#eee;line-height: 1.2;padding: 10px 0;}
+header .info p{color: #eee;font-size: 22px;font-weight: bold;margin-top: 5px;font-family: 'Righteous', cursive}
+header .info nav{ float: right;margin: 20px 0px;margin-right: 41%;}
+header .info nav ul{list-style: none;}
+header .info nav ul li {float: left;padding:10px;color:#eee;font-size: 20px;} 
+header .info nav ul li a{color:#EEe;text-decoration: none;}
+header .info nav ul li a:hover{color: #2591FF;}
+/* End Header */
+/* Start Skills */
+.about-me{overflow: hidden;padding-top:50px;padding-bottom: 50px;}
+.about-me .about{float: left;width: 50%;transition: all 2s ease-in-out;}
+.about-me .about:hover{transform: rotate(360deg)}
+.about-me .about h2{font-size: 35px;padding-bottom: 20px;}
+.about-me .about p:first-of-type{padding-bottom: 20px;}
+.about-me .about p{color: #757575;line-height: 1.7;font-family: 'Open Sans', sans-serif;}
+.about-me .information{overflow: hidden;color:#757575;}
+.about-me .information ul{list-style: none;margin-bottom: 25px;}
+.about-me .information ul li{width: 40%;display: inline-block;margin-top:30px;;margin-bottom: 10px;}
+.about-me .information button:first-of-type{background: #2591FF;width: 120px;height: 50px;border:none;border-radius: 15px;}
+.about-me .information button:last-of-type{background: #FFF;color:#2591FF;border:1px solid #2591FF;height: 50px;width: 150px;border-radius: 15px;}
+.about-me .information a{color:#FFF;text-decoration: none;}
+.about-me .information button #lastbutton{color:#2591FF;}
+.about-me .skills{float: left;width: 46%;margin-top:40px;margin-left: 40px;}
+.about-me .skills h1{font-size: 35px;}
+.about-me .skills h2{color:#757575;font-size: 22px;padding:25px 0px;}
+.about-me .skills .our-skills div{height: 17px;background: #ddd}
+.about-me .skills .our-skills div span{background: #2591FF;display: inline-block;text-align: right;color:#FFF;height: 17px;}
+/* End Skills */
+
+/* Start Total */
+.our-total {background-image: linear-gradient(rgba(33,33,33,.8),rgba(33,33,33,.8)),url(../images/bg.jpg);background-size: cover;background-attachment: fixed;height: 200px;margin-top:40px;}
+.our-total .my-total{float: left;width: 25%;padding-top: 30px;text-align: center;color: #6596c7;}
+.our-total .my-total span{font-size: 40px;padding-bottom: 15px;display: inline-block;cursor: pointer;}
+.our-total .my-total h2{margin:10px 0;}
+.our-total .my-total p{color:#FFF;font-size: 18px;letter-spacing: 3px}
+.our-total .my-total h2:hover{content: "hi"}
+/* End Total */
+/* Start Portfolio */
+.portfolio{padding:100px 0;text-align: center;background: #DDD;}
+.portfolio .info h2{color:#000;padding:20px 0;font-size: 28px;}
+.portfolio .info p{line-height: 1.8;margin: 0 auto;color: #757575;}
+.portfolio .info button {cursor: pointer;;background-color: #FFF;border: none;border-radius: 12px;width: 70px;height: 30px;margin-right: 10px;margin-top: 5%;}
+.portfolio .info button:first-of-type{background:#2591FF;color:#fff;}
+.portfolio .info button:hover{background: #2591FF;color:#FFF;}
+.portfolio .image {overflow: hidden;text-align: center;padding-top: 30px;}
+.portfolio .image > div {width: 25%;float: left;padding: 10px;}
+.portfolio .image div img {width: 100%;height: 900px;border-radius: 20px;margin-top:30px;transition:all 1.2s ease-in-out;}
+.portfolio .image div img:hover{transform: scale(1.1,1.1);}
+/* End PortFolio */
+/* Content */
+.contact {text-align: center;padding-top: 50px;}
+.contact .info h2 {color: #2c2b2b;font-size: 30px;letter-spacing: 2px;font-weight: 100;}
+.contact .info p {color: #757575;line-height: 1.5;}
+.contact .form input {width: 46%;background: #F5F5F5;border: none;height: 50px;border-radius: 10px;margin: 10px;padding: 10px;}
+.contact .form .subject {width: 95%;}
+.contact .form textarea {color: #757575;background: #f5f5f5;width: 96%;height: 250px;border: none;border-radius: 15px;padding: 10px;}
+.contact .form button {background: #2591FF;color: #fff;width: 150px;height: 40px;border: none;border-radius: 20px;margin-top: 10px;margin-bottom: 50px;}
+.contact .black {background-image: linear-gradient(rgba(33,33,33,.8),rgba(33,33,33,.8)),url(../images/bg1.jpg);background-size: cover;background-attachment: fixed;overflow: hidden;height: 200px;width: 95%;margin: auto;border-radius: 5px 5px 0px 0px;}
+.contact .black .icon {overflow: hidden;margin-top: 25px;}
+.contact .black .icon .icon1 {float: left;width: 33.33333%;color: #fff;}
+.contact .black .icon .icon1 i {color: #6596c7;font-size: 30px;padding-bottom: 15px;}
+.contact .black .icon .icon1 h3{padding:20px 0}
+.contact .black2 {background-image: linear-gradient(rgba(33,33,33,.8),rgba(33,33,33,.8)),url(../images/bg1.jpg);background-size: cover;background-attachment: fixed;height: 45px;border-radius: 5px 5px 0px 0px;}
+/* End Content */
+
+/* Start Footer */
+footer {background-image: linear-gradient(rgba(33,33,33,.8),rgba(33,33,33,.8)),url(../images/bg1.jpg);background-size: cover;background-attachment: fixed;width: 100%;text-align: center;height: 200px;}
+footer .icon ul {float: right;list-style: none;color: #eee;margin-right: 42%;margin-top: 0;}
+footer .icon ul li a{color: #eee;}
+footer .icon ul li {float: left;padding: 10px;border: 1px solid #6596c7;border-radius: 8px;margin: 3px;margin-top: 20px;}
+footer .copyright {color: #757575;text-align: center;margin-top: 50px;font-size: 20px}
+footer .copyright .line{height: 1px; background: #6596c7;width: 100%;margin-bottom: 30px;}
+/* End Footer */
