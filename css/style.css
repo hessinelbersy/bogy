@@ -13,6 +13,7 @@ header .navbar nav ul li{float: left;}
 header .navbar nav ul li a{text-decoration: none;color:#FFF;padding:15px;display: inline-block;font-size: 18px;}
 header .navbar nav ul li .first-a{color: #6596c7;}
 header .navbar nav ul li a:hover{color: #2591FF;}
+
 header .info{text-align: center;padding-top: 90px;}
 header .info img
 {border-radius: 50%;
@@ -26,10 +27,10 @@ header .info nav ul li {float: left;padding:10px;color:#eee;font-size: 20px;}
 header .info nav ul li a{color:#EEe;text-decoration: none;}
 header .info nav ul li a:hover{color: #2591FF;}
 /* End Header */
+
 /* Start Skills */
 .about-me{overflow: hidden;padding-top:50px;padding-bottom: 50px;}
-.about-me .about{float: left;width: 50%;transition: all 2s ease-in-out;}
-.about-me .about:hover{transform: rotate(360deg)}
+.about-me .about{float: left;width: 50%;}
 .about-me .about h2{font-size: 35px;padding-bottom: 20px;}
 .about-me .about p:first-of-type{padding-bottom: 20px;}
 .about-me .about p{color: #757575;line-height: 1.7;font-family: 'Open Sans', sans-serif;}
@@ -53,7 +54,6 @@ header .info nav ul li a:hover{color: #2591FF;}
 .our-total .my-total span{font-size: 40px;padding-bottom: 15px;display: inline-block;cursor: pointer;}
 .our-total .my-total h2{margin:10px 0;}
 .our-total .my-total p{color:#FFF;font-size: 18px;letter-spacing: 3px}
-.our-total .my-total h2:hover{content: "hi"}
 /* End Total */
 /* Start Portfolio */
 .portfolio{padding:100px 0;text-align: center;background: #DDD;}
