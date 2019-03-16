@@ -91,7 +91,7 @@ footer .copyright {color: #757575;text-align: center;margin-top: 50px;font-size:
 footer .copyright .line{height: 1px; background: #6596c7;width: 100%;margin-bottom: 30px;}
 /* End Footer */
 /* Start Media Queries */
-@media  (min-width:382px) and (max-width:680px){
+@media  (min-width:280px) and (max-width:980px){
     header{height: 650px;}
     .container{margin:0px 30px;}
     header .navbar .logo{float: none;margin-left: 0;width: 350px;}
