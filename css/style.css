@@ -91,3 +91,20 @@ footer .icon ul li {float: left;padding: 10px;border: 1px solid #6596c7;border-r
 footer .copyright {color: #757575;text-align: center;margin-top: 50px;font-size: 20px}
 footer .copyright .line{height: 1px; background: #6596c7;width: 100%;margin-bottom: 30px;}
 /* End Footer */
+@media  (min-width:418px) and (max-width:680px){
+    header{height: 650px;}
+    .container{margin:0px 30px;}
+    header .navbar .logo{float: left;margin-left: 0;width: 350px;}
+    header .info{text-align: center;padding-top: 30px;}
+    header .info img{max-width: 150px;height: 150px;}
+    header .info h1{font-size: 30px;line-height: 1.5;padding: 15px 0;}
+    header .info nav{margin-right: 28%;}
+    .about-me .about h2{font-size: 30px;}
+    .about-me .about{float: none;width: 100%;}
+    .about-me .about p{line-height: 1.9}
+    .about-me .information ul li {width: 49%;}
+    .about-me .information button:first-of-type {margin-right: 20px;}
+    .about-me .skills{float: none;width: 100%;margin-left: 0px;}
+    .our-total .my-total span{font-size: 30px;}
+    .our-total .my-total p{letter-spacing: 1px;line-height: 1.5;font-size: 16.5px;}
+}
